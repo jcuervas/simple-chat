@@ -85,10 +85,10 @@ export default function SignIn() {
             Sign In
           </Button>
           <Box sx={{display: 'flex', justifyContent: 'space-between', width: '100%'}}>
-            <Link href="confirm" variant="body2">
+            <Link href="/confirm" variant="body2">
               Have a confirmation code? enter here
             </Link>
-            <Link href="signup" variant="body2">
+            <Link href="/signup" variant="body2">
               Don't have an account? Sign Up
             </Link>
           </Box>
