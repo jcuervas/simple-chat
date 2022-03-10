@@ -1,4 +1,4 @@
-import {Avatar, Box, List, ListItem, ListItemAvatar, ListItemText, Typography} from "@mui/material";
+import {Avatar, Box, ListItem, ListItemAvatar, ListItemText, Typography} from "@mui/material";
 import PersonIcon from "@mui/icons-material/Person";
 import format from "date-fns/format";
 import * as React from "react";

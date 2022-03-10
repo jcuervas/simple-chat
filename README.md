@@ -15,3 +15,11 @@ and then just run
 
 Navigate to http://localhost:3000 to see local development server.
 
+## Amplify services
+This app relies on aws amplify backend with a graphQl api, authentication and hosted in cloudfront
+in https://d3m85d11cwtm93.cloudfront.net
+
+Every service has been added using amplify cli and code generation which takes care of graphQl schemas,
+queries, mutations and subscriptions
+
+There are no special things in this app so just register and play with it

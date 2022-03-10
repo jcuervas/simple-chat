@@ -1,10 +1,10 @@
-import {IconWrapper, StyledInputBar, StyledInputBase} from "../shared/styled";
+import {StyledInputBar, StyledInputBase} from "../shared/styled";
 import SendIcon from "@mui/icons-material/Send";
-import {Box, Button, IconButton, InputAdornment, OutlinedInput, TextField} from "@mui/material";
+import {Box, IconButton, InputAdornment} from "@mui/material";
 import * as React from "react";
+import {KeyboardEvent, useState} from "react";
 import {API, graphqlOperation} from "aws-amplify";
 import {createMessage} from "../../graphql/mutations";
-import {KeyboardEvent, useState} from "react";
 import useAuth from "../../hooks/useAuth";
 
 export default function MessageBox() {

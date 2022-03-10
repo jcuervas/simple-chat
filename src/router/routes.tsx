@@ -1,5 +1,5 @@
-import {Routes, Route, RouteObject, useRoutes, useNavigate} from "react-router-dom";
-import React, {useEffect} from "react";
+import {Route, RouteObject, Routes} from "react-router-dom";
+import React from "react";
 import SignIn from "../pages/Auth/SignIn";
 import SignUp from "../pages/Auth/SignUp";
 import Home from "../pages/Home";

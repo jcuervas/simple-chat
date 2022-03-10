@@ -1,5 +1,5 @@
 import {alpha, styled} from "@mui/material/styles";
-import {InputBase, OutlinedInput, TextField} from "@mui/material";
+import {OutlinedInput} from "@mui/material";
 
 export const StyledInputBar = styled('div')(({theme}) => ({
   position: 'relative',
