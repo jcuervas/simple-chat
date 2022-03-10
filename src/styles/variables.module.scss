@@ -1,0 +1,30 @@
+$primaryMain: #c79032;
+$primaryLight: #d7d3cc;
+$primaryDark: #b68731;
+
+$secondaryMain: #f56000;
+$secondaryLight: #fad8c3;
+$secondaryDark: #a63f00;
+
+$errorMain: #ab0000;
+
+:export {
+  primaryMain: $primaryMain;
+  primaryLight: $primaryLight;
+  primaryDark: $primaryDark;
+
+  secondaryMain: $secondaryMain;
+  secondaryLight: $secondaryLight;
+  secondaryDark: $secondaryDark;
+
+  errorMain: $errorMain;
+}
+:root {
+  --color-primary: #c79032;
+  --color-primary-light: #d7d3cc;
+  --color-primary-dark: #b68731;
+
+  --color-secondary: #f56000;
+  --color-secondary-light: #fad8c3;
+  --color-secondary-dark: #a63f00;
+}

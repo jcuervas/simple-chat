@@ -1,0 +1,21 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-simplechat-dev-131353-authRole",
+      "UnauthRoleArn": "arn:aws:iam::576299332339:role/amplify-simplechat-dev-131353-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::576299332339:role/amplify-simplechat-dev-131353-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-simplechat-dev-131353-deployment",
+      "UnauthRoleName": "amplify-simplechat-dev-131353-unauthRole",
+      "StackName": "amplify-simplechat-dev-131353",
+      "StackId": "arn:aws:cloudformation:eu-west-1:576299332339:stack/amplify-simplechat-dev-131353/bb7254c0-9c7d-11ec-9890-06f058921f6b",
+      "AmplifyAppId": "d3gfwel5z3vsxf"
+    },
+    "categories": {
+      "auth": {
+        "simplechat83ebbcd0": {},
+        "simplechat": {}
+      }
+    }
+  }
+}
